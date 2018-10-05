@@ -2,9 +2,9 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-img = cv2.imread('C:/mini-projects/1500.jpg',cv2.IMREAD_COLOR)
+img = cv2.imread('./1500.jpg',cv2.IMREAD_COLOR)
 
-newface_cascade = cv2.CascadeClassifier('C:/mini-projects/cascadeH5.xml')
+newface_cascade = cv2.CascadeClassifier('./cascadeH5.xml')
 # face_cascade = cv2.CascadeClassifier('C:/mini-projects/facial/opencv/data/haarcascades/haarcascade_frontalface_default.xml')
 # upper_cascade = cv2.CascadeClassifier('C:/mini-projects/facial/opencv/data/haarcascades/haarcascade_upperbody.xml')
 # low_cascade = cv2.CascadeClassifier('C:/mini-projects/facial/opencv/data/haarcascades/haarcascade_lowerbody.xml')
